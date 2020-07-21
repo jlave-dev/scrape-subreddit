@@ -16,6 +16,9 @@
   "license": "mit",
   "main": "bin/index.js",
   "name": "scrape-subreddit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
